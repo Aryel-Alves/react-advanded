@@ -24,7 +24,11 @@ interface ButtonProps {
 }
 
 export function Button ({ backgroundColor, label, ...props } : ButtonProps){
-  console.log(props)
+
+  React.useEffect(() => {
+    console.log("NOVA FUNÇÃO ONCLICK CHEGOU NO BOTÃO")
+  }, [props.onClick])
+
   return (
     <button 
       type="button"
