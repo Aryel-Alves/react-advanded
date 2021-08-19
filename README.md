@@ -2,7 +2,8 @@
 
 - typescript
 - React memo
-- USECALLBACK 
+- useMemo
+- useCallback 
 - STORYBOOK
 
 
