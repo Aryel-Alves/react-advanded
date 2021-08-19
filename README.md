@@ -1,6 +1,7 @@
 ## PROJETO PARA ESTUDO AVANÇADO DE REACT
 
 - typescript
+- React memo
 - USECALLBACK 
 - STORYBOOK
 
