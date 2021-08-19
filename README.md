@@ -1,9 +1,9 @@
-# PROJETO PARA ESTUDO AVANÇADO DE REACT
+## PROJETO PARA ESTUDO AVANÇADO DE REACT
 
+- typescript
 - USECALLBACK 
 - STORYBOOK
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
