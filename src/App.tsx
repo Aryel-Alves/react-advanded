@@ -4,7 +4,7 @@ import { Header } from './components/header'
 import './App.css';
 import PostList from './components/post-list';
 import LoginPage from './pages/login/login';
-import CameraPage from './pages/camera/camera';
+import CameraPage from './pages/camera/camera-page';
 
 function App() { 
   // useCallback memoriza a função criada evitando re render em componente filhos desnecessariamente
