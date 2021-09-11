@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { User } from '../../models';
 
 import { Button } from '../button';
@@ -33,6 +34,10 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps
         </svg>
         <h1>Acme</h1>
       </div>
+      <Link to="/">Home</Link>
+      <Link to="/post-list">Post list</Link>
+      <Link to="/login">Login</Link>
+      
       <div>
         {user?.username ? (
           <Button size="small" onClick={onLogout} label="Log out" />
